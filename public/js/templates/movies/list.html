@@ -1,0 +1,32 @@
+<% _.each(movies, function(movie) { 
+	path = 'img/movies/'; %>
+	<div class="movie" id="movie<%= movie.get('id') %>">
+		<div class="thumb-wrapper">
+			<img src="<%= path + movie.get('thumb') %>" alt="thumb" class="thumb">
+			<div class="dark-background"></div>
+		</div>
+		<p class="likes"><img src="img/icons/heart.png" alt="likes"><span><%= movie.get('likes') %></span></p>
+		<img src="img/icons/download.png" alt="download" class="download">
+		<p class="title"><%= movie.get('title') %></p>
+		<img src="img/icons/arrow-top.png" alt="arrow" class="arrow-top">
+	</div>
+	<div id="info<%= movie.get('id') %>" class="expandable-info closed">
+		<img src="<%= path + movie.get('cover') %>" alt="cover" class="cover">
+		<article>
+			<p class="article-title"><%= movie.get('title') %></p>
+			<p class="article-text"><%= movie.get('description') %></p>
+			<p class="article-score">score <span class="stars">4</span></p>
+			<button class="btn btn-primary watch-trailer" data-toggle="modal" data-target="#modal-trailer"><img src="img/icons/watch.png" alt="watch"> Watch Trailer </button>
+			<button class="btn btn-primary"> Add to favorites </button>
+			<input type="hidden" class="videoUrl" value="<%= path + movie.get('trailer') %>">
+		</article>
+		<aside>
+			<p class="aside-title">Director</p>
+			<p><%= movie.get('director') %></p>
+			<p class="aside-title">Writers</p>
+			<p><%= movie.get('writers') %></p>
+			<p class="aside-title">Stars</p>
+			<p><%= movie.get('cast') %></p>
+		</aside>
+	</div>
+<% }) %>	

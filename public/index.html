@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Koombea Movies</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/default_min.css">
+    <link rel="shortcut icon" href="img/icons/favicon.ico">
+</head>  
+<body>
+	<div class="container-fluid">
+		<header class="wrapper row">
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<div id="user-details-info">
+							<div class="avatar">
+								<img src="img/icons/avatar.png" alt="avatar">
+								<img src="img/icons/avatar-status.png" alt="status" class="status">
+							</div>
+							<span>Carol Danvers</span>
+							<img src="img/icons/edit.png" alt="edit">
+						</div>  
+						<a href=""><h1>Koombea Movies</h1></a>
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+					        <span class="sr-only">Toggle navigation</span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					     </button>
+					</div>
+					
+					<div class="collapse navbar-collapse " id="navbar-collapse-1">
+						<ul class="nav navbar-nav">
+						  	<li data-toggle="tooltip" data-placement="bottom" title="Comments"><img src="img/icons/comments.png" alt="comments"><span>Comments</span></li>
+						  	<li data-toggle="tooltip" data-placement="bottom" title="Movies"><img src="img/icons/movies.png" alt="movies"><span>Movies</span></li>
+						  	<li data-toggle="tooltip" data-placement="bottom" title="Videos"><img src="img/icons/videos.png" alt="videos"><span>Videos</span></li>
+						  	<li data-toggle="tooltip" data-placement="bottom" title="Games"><img src="img/icons/games.png" alt="games"><span>Games</span></li>
+						  	<li data-toggle="tooltip" data-placement="bottom" title="Tv Shows"><img src="img/icons/tv-shows.png" alt="tv-shows"><span>Tv Shows</span></li>
+						  	<li data-toggle="tooltip" data-placement="bottom" title="Share"><img src="img/icons/share.png" alt="share"><span>Share</span></li>
+						</ul>
+					</div>
+				<div class="container-fluid">
+			</nav>			
+		</header>
+		<section id="highlight" class="wrapper row">
+			<img src="img/back-main.jpg" alt="background-img">
+			<p class="highlight-title">Guardians of the Galaxy</p>
+			<div id="movie-info-wrapper">
+				<p>
+					released
+					<span class="movie-detail">feb 28,2014</span>
+				</p>
+				<p>
+					runtime
+					<span class="movie-detail">39 mins</span>
+				</p>
+				<p>
+					score
+					<span class="movie-detail"><span class="stars">4</span>
+				</p>
+				<p class="likes">
+					<img src="img/icons/heart.png" alt="likes">
+					<span>2548</span>
+				</p>
+			</div>
+		</section>
+		<section id="list-movies">
+			<div class="modal fade" id="modal-trailer">
+			  <div class="modal-dialog">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			        <h4 class="modal-title">Modal title</h4>
+			      </div>
+			      <div class="modal-body">
+				    <video id="trailer-video" controls>
+				       <source src="" type="video/mp4">
+				       <source src="" type="video/ogg">
+				     	Your browser does not support the video tag.
+				    </video>
+			      </div>
+			      <div class="modal-footer">
+			        <span>Similar Movies</span>
+			        <hr/>
+			        <div class="similar-movies">
+			        	<img src="img/movies/cover2.jpg" alt="cover">
+			        	<p>Captain America, the winter soldier</p>
+			        </div>
+			        <div class="similar-movies">
+			        	<img src="img/movies/cover3.jpg" alt="cover">
+			        	<p>Thor: The dark World</p>
+			        </div>
+			        <div class="similar-movies">
+			        	<img src="img/movies/cover4.jpg" alt="cover">
+			        	<p>Thor</p>
+			        </div>
+			        <div class="similar-movies">
+			        	<img src="img/movies/cover5.jpg" alt="cover">
+			        	<p>Captain America, the first avenger</p>
+			        </div>
+			        <div class="similar-movies">
+			        	<img src="img/movies/cover6.jpg" alt="cover">
+			        	<p>Iron Man 3</p>
+			        </div>
+			        <div class="similar-movies">
+			        	<img src="img/movies/cover7.jpg" alt="cover">
+			        	<p>The avengers</p>
+			        </div>
+			        <div class="similar-movies">
+			        	<img src="img/movies/cover8.jpg" alt="cover">
+			        	<p>Iron Man 2</p>
+			        </div>
+			      </div>
+			    </div><!-- /.modal-content -->
+			  </div><!-- /.modal-dialog -->
+			</div><!-- /.modal -->
+			<div class="row">
+				<span class="new-releases col-sm-offset-1 col-sm-5 col-xs-12 col-xs-offset1">New Releases</span>
+				<span class="no-results col-sm-12 col-xs-12 hide">No results found</span>
+				<div class="search-wrapper">
+					<input type="text" placeholder="Search..." class="search"><img src="img/icons/search.png" alt="search" class="search-img">
+				</div>	
+			</div>
+			<div class="row">
+				<div id="movies-main" class="col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1"></div>
+			</div>
+		</section>
+		<footer>
+			<p>&copy; All rights reserved - 2015 Koombea </p><img src="img/movie-logo-white.png">
+		</footer>
+	</div>
+	<script data-main="js/main" src="js/libs/require/require.js"></script>
+</body>
+</html>
