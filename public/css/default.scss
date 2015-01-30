@@ -218,6 +218,15 @@ span.stars span {
 		padding-top: 90px;
 		text-align: center;
 	}
+	.fake-background{
+		display: none;
+		height: 100%;
+		left: 0;
+		top: 0;
+		position: fixed;
+		width: 100%;
+		z-index: 4;
+	}
 	.movie{
 		color: #FFF;
 		display: inline-block;
@@ -299,6 +308,7 @@ span.stars span {
 		left: -10.53333%;
 		position: absolute;
 		width: 120%;
+		z-index: 5;
 		.cover{
 			display: none;
 			margin-left: 8%;

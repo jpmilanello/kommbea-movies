@@ -24,12 +24,20 @@ define([
        trailerVideo.pause(); 
       }
     });
+    $('.fake-background').click(function(){
+      $('.movie').removeClass('spaced');
+      $('.movie').children('.arrow-top').css({display:"none"});
+      $('.expandable-info').addClass('closed');
+      $('.expandable-info').css({"height":"0px"});
+      $(this).css({display:"none"});
+    })
     $( window ).resize(function() {
       $('.navbar-collapse').removeClass('in')
       $('.movie').removeClass('spaced');
       $('.movie').children('.arrow-top').css({display:"none"});
       $('.expandable-info').addClass('closed');
       $('.expandable-info').css({"height":"0px"});
+      $('.fake-background').css({display:"none"});
     });
 });
 

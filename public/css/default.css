@@ -166,6 +166,14 @@ span.stars span {
     height: 200px;
     padding-top: 90px;
     text-align: center; }
+  #list-movies .fake-background {
+    display: none;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 4; }
   #list-movies .movie {
     color: #FFF;
     display: inline-block;
@@ -239,7 +247,8 @@ span.stars span {
     height: 0;
     left: -10.53333%;
     position: absolute;
-    width: 120%; }
+    width: 120%;
+    z-index: 5; }
     #list-movies .expandable-info .cover {
       display: none;
       margin-left: 8%;

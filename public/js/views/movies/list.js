@@ -226,6 +226,7 @@ define([
   		},
       /* Control events */
       events: {
+        'click #list-movies': 'closeInfo',
         'click .movie': 'showInfo',
         'click .watch-trailer':'openModal',
         'click .search-img':'search',
@@ -235,10 +236,7 @@ define([
         var element = $(ev.currentTarget);
         idInfo = element.attr('id').split("movie")[1];
         if( $('.expandable-info#info'+idInfo).hasClass('closed')){
-          $('.movie').removeClass('spaced');
-          $('.movie').children('.arrow-top').css({display:"none"});
-          $('.expandable-info').addClass('closed');
-          $('.expandable-info').css({"height":"0px"});
+          this.closeInfo();
           var element = $(ev.currentTarget);
           index = $('.movie').index(element);
           var documentWidth = viewport().width;
@@ -258,6 +256,7 @@ define([
           element.addClass('spaced');
           topMeasure = (row + 1)*(thumbHeight + documentWidth*0.021*0.8333);
           $('.expandable-info#info'+idInfo).removeClass('closed');
+          $('.fake-background').css({display:"block"});
           setTimeout(function(){ 
             $(window).scrollTop(topMeasure - 75 + mainImageHeight);
             $('.expandable-info#info'+idInfo).css({"top":topMeasure + "px","height":"387px"});
@@ -266,10 +265,7 @@ define([
             element.children('.arrow-top').css({display:"inline-block"});
           }, 100);
         }else{
-          $('.movie').removeClass('spaced');
-          $('.movie').children('.arrow-top').css({display:"none"});
-          $('.expandable-info').addClass('closed');
-          $('.expandable-info').css({"height":"0px"});
+          this.closeInfo();
         }
         function viewport(){
           var e = window
@@ -295,6 +291,13 @@ define([
         }
         $('span.stars').stars();
       }, 
+      closeInfo: function (ev) {
+        $('.fake-background').css({display:"none"});
+        $('.movie').removeClass('spaced');
+        $('.movie').children('.arrow-top').css({display:"none"});
+        $('.expandable-info').addClass('closed');
+        $('.expandable-info').css({"height":"0px"});
+      },
       openModal: function (ev) {
         var element = $(ev.currentTarget);
         $('.modal-title').html(element.parent().children('.article-title').html());
