@@ -239,7 +239,14 @@ span.stars span {
 		}
 		.thumb-wrapper{
 			position: relative;
+			.fake-border{
+				height: 100%;
+				position: absolute;
+				width: 100%;
+				z-index: 3;
+			}
 			.thumb{
+				border-radius: 12px;
 				width: 100%;
 			}
 			.dark-background{
@@ -285,11 +292,12 @@ span.stars span {
 			width: 22px;
 		}
 		&:hover{
-			.thumb{
-				@include shadow;
+			.fake-border{
 				border: 5px solid $primary-color;
 				border-radius: 12px;
-				
+			}
+			.thumb{
+				@include shadow;
 			}
 			.thumb-wrapper{
 				.dark-background{

@@ -185,7 +185,13 @@ span.stars span {
       margin: 0; }
     #list-movies .movie .thumb-wrapper {
       position: relative; }
+      #list-movies .movie .thumb-wrapper .fake-border {
+        height: 100%;
+        position: absolute;
+        width: 100%;
+        z-index: 3; }
       #list-movies .movie .thumb-wrapper .thumb {
+        border-radius: 12px;
         width: 100%; }
       #list-movies .movie .thumb-wrapper .dark-background {
         -webkit-border-radius: 10px;
@@ -228,12 +234,13 @@ span.stars span {
       left: 50%;
       position: absolute;
       width: 22px; }
+    #list-movies .movie:hover .fake-border {
+      border: 5px solid #D72329;
+      border-radius: 12px; }
     #list-movies .movie:hover .thumb {
       -webkit-box-shadow: 0px 0px 31px -2px rgba(0, 0, 0, 0.75);
       -moz-box-shadow: 0px 0px 31px -2px rgba(0, 0, 0, 0.75);
-      box-shadow: 0px 0px 31px -2px rgba(0, 0, 0, 0.75);
-      border: 5px solid #D72329;
-      border-radius: 12px; }
+      box-shadow: 0px 0px 31px -2px rgba(0, 0, 0, 0.75); }
     #list-movies .movie:hover .thumb-wrapper .dark-background {
       display: none; }
     #list-movies .movie.spaced {
