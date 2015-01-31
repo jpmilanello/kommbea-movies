@@ -18,11 +18,11 @@ define([
             id: "1",
             title: "Guardians of the Galaxy", 
             thumb: "gotg.png",
-            cover: "cover.jpg",
+            cover: "gotg_cover.jpg",
             description: "After stealing a mysterious orb in the far reaches of outer space, Peter Quill from Earth, is now the main target of a manhunt led by the villain known as Ronan the Accuser. To help fight Ronan and his team and save the galaxy from his power, Quill creates a team of space heroes known as the “Guardians of the Galaxy” to save the world.",
-            score: 4,
+            score: "4",
             director: "James Gunn",
-            writers: "ames Gunn, Nicole Pertman, Dan Abnett, Andy Lanning",
+            writers: "James Gunn, Nicole Pertman, Dan Abnett, Andy Lanning",
             cast: "Chriss Pratt, Zoe Saldana, Dave Bautista, Vin Diesel, Bradley Cooper and others...",
             trailer: "gotg.mp4",
             likes: 3542
@@ -31,12 +31,12 @@ define([
             id: "2",
             title: "The First Avenger", 
             thumb: "tfavenger.png",
-            cover: "cover.jpg",
-            description: "After stealing a mysterious orb in the far reaches of outer space, Peter Quill from Earth, is now the main target of a manhunt led by the villain known as Ronan the Accuser. To help fight Ronan and his team and save the galaxy from his power, Quill creates a team of space heroes known as the “Guardians of the Galaxy” to save the world.",
-            score: 4,
-            director: "James Gunn",
-            writers: "ames Gunn, Nicole Pertman, Dan Abnett, Andy Lanning",
-            cast: "Chriss Pratt, Zoe Saldana, Dave Bautista, Vin Diesel, Bradley Cooper and others...",
+            cover: "ca_cover.jpg",
+            description: "Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a 'Super-Soldier serum'. But being Captain America comes at a price if he attempts to take down a war monger and a terrorist organization.",
+            score: "3.5",
+            director: "Joe Johnston",
+            writers: "Christopher Markus, Stephen McFeely, Joe Simon and Jack Kirby",
+            cast: "Chris Evans, Hayley Atwell, Sebastian Stan, Tommy Lee Jones, Hugo Weaving, Samuel L. Jackson and others.",
             trailer: "gotg.mp4",
             likes: 3234
           },
@@ -44,12 +44,12 @@ define([
             id: "3",
             title: "The Amazing Spider-Man 2", 
             thumb: "taspiderman.png",
-            cover: "cover.jpg",
-            description: "After stealing a mysterious orb in the far reaches of outer space, Peter Quill from Earth, is now the main target of a manhunt led by the villain known as Ronan the Accuser. To help fight Ronan and his team and save the galaxy from his power, Quill creates a team of space heroes known as the “Guardians of the Galaxy” to save the world.",
-            score: 4,
-            director: "James Gunn",
-            writers: "ames Gunn, Nicole Pertman, Dan Abnett, Andy Lanning",
-            cast: "Chriss Pratt, Zoe Saldana, Dave Bautista, Vin Diesel, Bradley Cooper and others...",
+            cover: "s_cover.jpg",
+            description: "When New York is put under siege by Oscorp, it is up to Spider-Man to save the city he swore to protect as well as his loved ones.",
+            score: "4.1",
+            director: "Marc Webb",
+            writers: "Alex Kurtzman, Roberto Orci, Jeff Pinkner and others.",
+            cast: "Andrew Garfield, Emma Stone, Jamie Foxx and others...",
             trailer: "gotg.mp4",
             likes: 2951
           },
@@ -57,12 +57,12 @@ define([
             id: "4",
             title: "The Incredible Hulk", 
             thumb: "tihulk.png",
-            cover: "cover.jpg",
-            description: "After stealing a mysterious orb in the far reaches of outer space, Peter Quill from Earth, is now the main target of a manhunt led by the villain known as Ronan the Accuser. To help fight Ronan and his team and save the galaxy from his power, Quill creates a team of space heroes known as the “Guardians of the Galaxy” to save the world.",
-            score: 4,
-            director: "James Gunn",
-            writers: "ames Gunn, Nicole Pertman, Dan Abnett, Andy Lanning",
-            cast: "Chriss Pratt, Zoe Saldana, Dave Bautista, Vin Diesel, Bradley Cooper and others...",
+            cover: "h_cover.jpg",
+            description: "Bruce Banner, a scientist on the run from the U.S. Government must find a cure for the monster he emerges whenever he loses his temper. However, Banner then must fight a soldier whom unleashes himself as a threat stronger than he.",
+            score: "3.7",
+            director: "Louis Leterrier",
+            writers: "Zak Penn",
+            cast: "Edward Norton, Liv Tyler, Tim Roth and others....",
             trailer: "gotg.mp4",
             likes: 3248
           },
@@ -70,12 +70,12 @@ define([
             id: "5",
             title: "Thor: The Dark World", 
             thumb: "thor.png",
-            cover: "cover.jpg",
-            description: "After stealing a mysterious orb in the far reaches of outer space, Peter Quill from Earth, is now the main target of a manhunt led by the villain known as Ronan the Accuser. To help fight Ronan and his team and save the galaxy from his power, Quill creates a team of space heroes known as the “Guardians of the Galaxy” to save the world.",
-            score: 4,
-            director: "James Gunn",
-            writers: "ames Gunn, Nicole Pertman, Dan Abnett, Andy Lanning",
-            cast: "Chriss Pratt, Zoe Saldana, Dave Bautista, Vin Diesel, Bradley Cooper and others...",
+            cover: "t_cover.jpg",
+            description: "When Thor's love interest gets cursed with a powerful object, Thor must protect it before an army and its ruthless leader try to get their hands on it to take over the remains of Earth.",
+            score: "4.3",
+            director: "Alan Taylor",
+            writers: "Christopher Yost, Christopher Markus and others.",
+            cast: "Chris Hemsworth, Natalie Portman, Tom Hiddleston and others...",
             trailer: "gotg.mp4",
             likes: 3542
           },
@@ -83,12 +83,12 @@ define([
             id: "6",
             title: "The First Avenger", 
             thumb: "tfavenger.png",
-            cover: "cover.jpg",
-            description: "After stealing a mysterious orb in the far reaches of outer space, Peter Quill from Earth, is now the main target of a manhunt led by the villain known as Ronan the Accuser. To help fight Ronan and his team and save the galaxy from his power, Quill creates a team of space heroes known as the “Guardians of the Galaxy” to save the world.",
-            score: 4,
-            director: "James Gunn",
-            writers: "ames Gunn, Nicole Pertman, Dan Abnett, Andy Lanning",
-            cast: "Chriss Pratt, Zoe Saldana, Dave Bautista, Vin Diesel, Bradley Cooper and others...",
+            cover: "ca_cover.jpg",
+            description: "Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a 'Super-Soldier serum'. But being Captain America comes at a price if he attempts to take down a war monger and a terrorist organization.",
+            score: "3.5",
+            director: "Joe Johnston",
+            writers: "Christopher Markus, Stephen McFeely, Joe Simon and Jack Kirby",
+            cast: "Chris Evans, Hayley Atwell, Sebastian Stan, Tommy Lee Jones, Hugo Weaving, Samuel L. Jackson and others.",
             trailer: "gotg.mp4",
             likes: 3234
           },
@@ -96,12 +96,12 @@ define([
             id: "7",
             title: "Thor: The Dark World", 
             thumb: "thor.png",
-            cover: "cover.jpg",
-            description: "After stealing a mysterious orb in the far reaches of outer space, Peter Quill from Earth, is now the main target of a manhunt led by the villain known as Ronan the Accuser. To help fight Ronan and his team and save the galaxy from his power, Quill creates a team of space heroes known as the “Guardians of the Galaxy” to save the world.",
-            score: 4,
-            director: "James Gunn",
-            writers: "ames Gunn, Nicole Pertman, Dan Abnett, Andy Lanning",
-            cast: "Chriss Pratt, Zoe Saldana, Dave Bautista, Vin Diesel, Bradley Cooper and others...",
+            cover: "t_cover.jpg",
+            description: "When Thor's love interest gets cursed with a powerful object, Thor must protect it before an army and its ruthless leader try to get their hands on it to take over the remains of Earth.",
+            score: "4.3",
+            director: "Alan Taylor",
+            writers: "Christopher Yost, Christopher Markus and others.",
+            cast: "Chris Hemsworth, Natalie Portman, Tom Hiddleston and others...",
             trailer: "gotg.mp4",
             likes: 3542
           },
@@ -109,28 +109,25 @@ define([
             id: "8",
             title: "Guardians of the Galaxy", 
             thumb: "gotg.png",
-            cover: "cover.jpg",
+            cover: "gotg_cover.jpg",
             description: "After stealing a mysterious orb in the far reaches of outer space, Peter Quill from Earth, is now the main target of a manhunt led by the villain known as Ronan the Accuser. To help fight Ronan and his team and save the galaxy from his power, Quill creates a team of space heroes known as the “Guardians of the Galaxy” to save the world.",
-            score: 4,
+            score: "4",
             director: "James Gunn",
-            writers: "ames Gunn, Nicole Pertman, Dan Abnett, Andy Lanning",
+            writers: "james Gunn, Nicole Pertman, Dan Abnett, Andy Lanning",
             cast: "Chriss Pratt, Zoe Saldana, Dave Bautista, Vin Diesel, Bradley Cooper and others...",
             trailer: "gotg.mp4",
             likes: 3542
           },
           {
             id: "9",
-            title: "The First Avenger", 
-            thumb: "tfavenger.png",
-            cover: "cover.jpg",
             title: "The Incredible Hulk", 
             thumb: "tihulk.png",
-            cover: "cover.jpg",
-            description: "After stealing a mysterious orb in the far reaches of outer space, Peter Quill from Earth, is now the main target of a manhunt led by the villain known as Ronan the Accuser. To help fight Ronan and his team and save the galaxy from his power, Quill creates a team of space heroes known as the “Guardians of the Galaxy” to save the world.",
-            score: 4,
-            director: "James Gunn",
-            writers: "ames Gunn, Nicole Pertman, Dan Abnett, Andy Lanning",
-            cast: "Chriss Pratt, Zoe Saldana, Dave Bautista, Vin Diesel, Bradley Cooper and others...",
+            cover: "h_cover.jpg",
+            description: "The InBruce Banner, a scientist on the run from the U.S. Government must find a cure for the monster he emerges whenever he loses his temper. However, Banner then must fight a soldier whom unleashes himself as a threat stronger than he.",
+            score: "3.7",
+            director: "Louis Leterrier",
+            writers: "Zak Penn",
+            cast: "Edward Norton, Liv Tyler, Tim Roth and others. Samuel L. Jackson and others.",
             trailer: "gotg.mp4",
             likes: 3234
           },
@@ -138,12 +135,12 @@ define([
             id: "10",
             title: "The Amazing Spider-Man 2", 
             thumb: "taspiderman.png",     
-            cover: "cover.jpg",
-            description: "After stealing a mysterious orb in the far reaches of outer space, Peter Quill from Earth, is now the main target of a manhunt led by the villain known as Ronan the Accuser. To help fight Ronan and his team and save the galaxy from his power, Quill creates a team of space heroes known as the “Guardians of the Galaxy” to save the world.",
-            score: 4,
-            director: "James Gunn",
-            writers: "ames Gunn, Nicole Pertman, Dan Abnett, Andy Lanning",
-            cast: "Chriss Pratt, Zoe Saldana, Dave Bautista, Vin Diesel, Bradley Cooper and others...",
+            cover: "s_cover.jpg",
+            description: "When New York is put under siege by Oscorp, it is up to Spider-Man to save the city he swore to protect as well as his loved ones.",
+            score: "4.1",
+            director: "Marc Webb",
+            writers: "Alex Kurtzman, Roberto Orci, Jeff Pinkner and others.",
+            cast: "Andrew Garfield, Emma Stone, Jamie Foxx and others...",
             trailer: "gotg.mp4",
             likes: 3542
           },
@@ -151,12 +148,12 @@ define([
             id: "11",
             title: "The Amazing Spider-Man 2", 
             thumb: "taspiderman.png",
-            cover: "cover.jpg",
-            description: "After stealing a mysterious orb in the far reaches of outer space, Peter Quill from Earth, is now the main target of a manhunt led by the villain known as Ronan the Accuser. To help fight Ronan and his team and save the galaxy from his power, Quill creates a team of space heroes known as the “Guardians of the Galaxy” to save the world.",
-            score: 4,
-            director: "James Gunn",
-            writers: "ames Gunn, Nicole Pertman, Dan Abnett, Andy Lanning",
-            cast: "Chriss Pratt, Zoe Saldana, Dave Bautista, Vin Diesel, Bradley Cooper and others...",
+            cover: "s_cover.jpg",
+            description: "When New York is put under siege by Oscorp, it is up to Spider-Man to save the city he swore to protect as well as his loved ones.",
+            score: "4.1",
+            director: "Marc Webb",
+            writers: "Alex Kurtzman, Roberto Orci, Jeff Pinkner and others.",
+            cast: "Andrew Garfield, Emma Stone, Jamie Foxx and others...",
             trailer: "gotg.mp4",
             likes: 3542
           },
@@ -164,12 +161,12 @@ define([
             id: "12",
             title: "The First Avenger", 
             thumb: "tfavenger.png",
-            cover: "cover.jpg",
-            description: "After stealing a mysterious orb in the far reaches of outer space, Peter Quill from Earth, is now the main target of a manhunt led by the villain known as Ronan the Accuser. To help fight Ronan and his team and save the galaxy from his power, Quill creates a team of space heroes known as the “Guardians of the Galaxy” to save the world.",
-            score: 4,
-            director: "James Gunn",
-            writers: "ames Gunn, Nicole Pertman, Dan Abnett, Andy Lanning",
-            cast: "Chriss Pratt, Zoe Saldana, Dave Bautista, Vin Diesel, Bradley Cooper and others...",
+            cover: "ca_cover.jpg",
+            description: "Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a 'Super-Soldier serum'. But being Captain America comes at a price if he attempts to take down a war monger and a terrorist organization.",
+            score: "3.5",
+            director: "Joe Johnston",
+            writers: "Christopher Markus, Stephen McFeely, Joe Simon and Jack Kirby",
+            cast: "Chris Evans, Hayley Atwell, Sebastian Stan, Tommy Lee Jones, Hugo Weaving, Samuel L. Jackson and others.",
             trailer: "gotg.mp4",
             likes: 3234
           },
@@ -177,12 +174,12 @@ define([
             id: "13",
             title: "The Incredible Hulk", 
             thumb: "tihulk.png",
-            cover: "cover.jpg",
-            description: "After stealing a mysterious orb in the far reaches of outer space, Peter Quill from Earth, is now the main target of a manhunt led by the villain known as Ronan the Accuser. To help fight Ronan and his team and save the galaxy from his power, Quill creates a team of space heroes known as the “Guardians of the Galaxy” to save the world.",
-            score: 4,
-            director: "James Gunn",
-            writers: "ames Gunn, Nicole Pertman, Dan Abnett, Andy Lanning",
-            cast: "Chriss Pratt, Zoe Saldana, Dave Bautista, Vin Diesel, Bradley Cooper and others...",
+            cover: "h_cover.jpg",
+            description: "Bruce Banner, a scientist on the run from the U.S. Government must find a cure for the monster he emerges whenever he loses his temper. However, Banner then must fight a soldier whom unleashes himself as a threat stronger than he.",
+            score: "3.7",
+            director: "Louis Leterrier",
+            writers: "Zak Penn",
+            cast: "Edward Norton, Liv Tyler, Tim Roth and others....",
             trailer: "gotg.mp4",
             likes: 3248
           },
@@ -190,12 +187,12 @@ define([
             id: "14",
             title: "Thor: The Dark World", 
             thumb: "thor.png",
-            cover: "cover.jpg",
-            description: "After stealing a mysterious orb in the far reaches of outer space, Peter Quill from Earth, is now the main target of a manhunt led by the villain known as Ronan the Accuser. To help fight Ronan and his team and save the galaxy from his power, Quill creates a team of space heroes known as the “Guardians of the Galaxy” to save the world.",
-            score: 4,
-            director: "James Gunn",
-            writers: "ames Gunn, Nicole Pertman, Dan Abnett, Andy Lanning",
-            cast: "Chriss Pratt, Zoe Saldana, Dave Bautista, Vin Diesel, Bradley Cooper and others...",
+            cover: "t_cover.jpg",
+            description: "When Thor's love interest gets cursed with a powerful object, Thor must protect it before an army and its ruthless leader try to get their hands on it to take over the remains of Earth.",
+            score: "4.3",
+            director: "Alan Taylor",
+            writers: "Christopher Yost, Christopher Markus and others.",
+            cast: "Chris Hemsworth, Natalie Portman, Tom Hiddleston and others...",
             trailer: "gotg.mp4",
             likes: 3542
           },
@@ -203,11 +200,11 @@ define([
             id: "15",
             title: "Guardians of the Galaxy", 
             thumb: "gotg.png",
-            cover: "cover.jpg",
+            cover: "gotg_cover.jpg",
             description: "After stealing a mysterious orb in the far reaches of outer space, Peter Quill from Earth, is now the main target of a manhunt led by the villain known as Ronan the Accuser. To help fight Ronan and his team and save the galaxy from his power, Quill creates a team of space heroes known as the “Guardians of the Galaxy” to save the world.",
-            score: 4,
+            score: "4",
             director: "James Gunn",
-            writers: "ames Gunn, Nicole Pertman, Dan Abnett, Andy Lanning",
+            writers: "James Gunn, Nicole Pertman, Dan Abnett, Andy Lanning",
             cast: "Chriss Pratt, Zoe Saldana, Dave Bautista, Vin Diesel, Bradley Cooper and others...",
             trailer: "gotg.mp4",
             likes: 3542
@@ -223,6 +220,19 @@ define([
   			/* Load the html template with the data. Each row is passed in JSON format */
   			var listTemplate = _.template(moviesListTemplate)({movies: this.moviesFiltered.models});
   			element.$('#movies-main').html(listTemplate);	
+        $.fn.stars = function() {
+            return $(this).each(function() {
+                // Get the value
+                var val = parseFloat($(this).html());
+                // Make sure that the value is in 0 - 5 range, multiply to get width
+                var size = Math.max(0, (Math.min(5, val))) * 16;
+                // Create stars holder
+                var $span = $('<span />').width(size);
+                // Replace the numerical value with stars
+                $(this).html($span);
+            });
+        }
+        $('.expandable-info .stars').stars();
   		},
       /* Control events */
       events: {
@@ -277,19 +287,6 @@ define([
           }
           return { width : e[ a+'Width' ] , height : e[ a+'Height' ] }
         };
-        $.fn.stars = function() {
-            return $(this).each(function() {
-                // Get the value
-                var val = parseFloat($(this).html());
-                // Make sure that the value is in 0 - 5 range, multiply to get width
-                var size = Math.max(0, (Math.min(5, val))) * 16;
-                // Create stars holder
-                var $span = $('<span />').width(size);
-                // Replace the numerical value with stars
-                $(this).html($span);
-            });
-        }
-        $('span.stars').stars();
       }, 
       closeInfo: function (ev) {
         $('.fake-background').css({display:"none"});

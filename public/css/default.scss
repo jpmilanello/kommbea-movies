@@ -248,7 +248,7 @@ span.stars span {
 				height: 100%; 
 				position: absolute;
 				top: 0;
-				z-index: 2;
+				z-index: 5;
 				width: 100%;
 			}
 		}
@@ -257,13 +257,13 @@ span.stars span {
 			left: 10px;
 			position: absolute;
 			width: calc(100% - 20px);
-			z-index: 3;
+			z-index: 6;
 		}
 		.likes{
 			left: 10px;
 			position: absolute;
 			top: 10px;
-			z-index: 3;
+			z-index: 6;
 			img{
 				width: 15px;
 			}
@@ -273,7 +273,7 @@ span.stars span {
 			right: 10px;
 			top: 10px;
 			width: 14px;
-			z-index: 3;
+			z-index: 6;
 		}
 		.arrow-top{
 			@include translate(-50%,0);
